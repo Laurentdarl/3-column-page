@@ -1,0 +1,200 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 0.94rem;
+  font-family: "Lexend Deca";
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0;
+  word-break: break-word;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  background: inherit;
+  outline: none;
+  border: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+@media (min-width: 612px) {
+  body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem 0;
+}
+
+@media (min-width: 612px) {
+  .container {
+    flex-direction: row;
+    max-width: 1000px;
+  }
+}
+
+.cards {
+  padding: 2rem 2.5rem 3rem;
+}
+
+.cards h1 {
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+@media (min-width: 612px) {
+  .cards h1 {
+    font-size: 1.8rem;
+  }
+}
+
+.cards:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+@media (min-width: 612px) {
+  .cards:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+.cards:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+@media (min-width: 612px) {
+  .cards:last-child {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.cards p {
+  color: rgba(255, 255, 255, 0.75);
+  padding-right: 5px;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 612px) {
+  .cards p {
+    padding-right: 5px;
+  }
+}
+
+.img-container {
+  width: 40px;
+}
+
+.sedan {
+  background: #d0985d;
+}
+
+.suv {
+  background: #006970;
+}
+
+.luxury {
+  background: #004241;
+}
+
+.btn {
+  background: #f2f2f2;
+  font-size: 0.6rem;
+  border-radius: 25px;
+  padding: 0.65em 2.5em;
+  transition: all 250ms 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+@media (min-width: 612px) {
+  .btn {
+    padding: 0.5em 2.7em;
+    font-size: 1rem;
+  }
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.orange {
+  color: #d0985d;
+}
+
+.orange:hover {
+  background: #d0985d;
+}
+
+.cyan {
+  color: #006970;
+}
+
+.cyan:hover {
+  background: #006970;
+}
+
+.dark-cyan {
+  color: #004241;
+}
+
+.dark-cyan:hover {
+  background: #004241;
+}
+
+footer {
+  padding: 0.6rem 0;
+}
+
+@media (min-width: 612px) {
+  footer {
+    padding: 0;
+  }
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
