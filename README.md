@@ -28,8 +28,8 @@ The final project I created can be veiwed on mobile devices and on large screen 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/3columnpge-D75GsT9wE
+- Live Site URL: https://3-column-page.vercel.app/
 
 ## My process
 
